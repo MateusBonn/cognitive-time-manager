@@ -38,7 +38,7 @@ public class AllocateTimeService implements AllocateTimeUseCase {
     public AllocateTimeService(
             ScheduleDayRepository scheduleDayRepository,
             NotificationPort notificationPort) {
-        this.engine = new TimeAllocationEngine() // Pure domain object, no injection needed
+        this.engine = new TimeAllocationEngine(); // Pure domain object, no injection needed
         this.scheduleDayRepository = Objects.requireNonNull(scheduleDayRepository);
         this.notificationPort = Objects.requireNonNull(notificationPort);
     }
