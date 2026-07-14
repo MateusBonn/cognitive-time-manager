@@ -569,3 +569,4 @@ Convido a comunidade a auditar as decisões da IA e provar isso na prática.
 4. **Regra de Ouro (Hard Constraint):** Se o seu PR adicionar qualquer anotação de framework (`@Service`, `@Entity`, Jackson, etc.) dentro do pacote `domain/`, ele será sumariamente rejeitado. A pureza da Arquitetura Hexagonal é inegociável.
 
 Abra uma issue para discutir arquitetura ou mande o PR diretamente. Mostre onde a máquina falhou.
+
