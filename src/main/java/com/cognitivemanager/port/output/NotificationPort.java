@@ -46,5 +46,5 @@ public interface NotificationPort {
      * @param developerId Recipient developer
      * @param updatedDay  The new, fully allocated schedule
      */
-    void notifyScheduleUpdate(String developerId, ScheduleDay updatedDay);
+    void notifyScheduleUpdate(String developerId, ScheduleDay updatedDay)
 }
